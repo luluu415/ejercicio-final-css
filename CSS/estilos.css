@@ -1,0 +1,156 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    font-family: poppins, sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+.contenedor{
+    width: 1200px;
+    background-color:#FFE3E3 ;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*aqui comienza el header*/
+
+header{
+    background-color: #7779BA;
+    border-radius: 0 0 25px 25px;
+    position: sticky;
+    top: 0 ;
+    z-index: 1;
+}
+
+.menu{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.bmenu{
+    padding-right: 35px;
+}
+a{
+    color: #FFE3E3;
+    font-family: Gloock, sans-serif
+}
+a:hover{
+    opacity: 75%;
+    transition: 0.3s;
+}
+.logo{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 95px;
+    margin-bottom: 32px;
+}
+h1{
+    text-align: center;
+    font-size: 72px;
+    font-family: Gloock, serif;
+    color: #7779BA;
+}
+h3{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 300;
+    color: #7779BA;
+}
+/*aqui empieza mi main*/
+h2{
+    font-family: Gloock, sans-serif;
+    color: #7779BA;
+    font-size: 42px;
+    margin-top: 175px;
+    margin-left: 145px;
+}
+p{
+    margin-left: 145px;
+    margin-bottom: 10px;
+    color: #7779BA;
+
+}
+
+.galeria{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+img.imagen{
+    margin: -3px;
+}
+/* aqui edito la pagina del render grande*/
+img.render01{
+    width: 850px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    margin-bottom: 25px;
+
+}
+a.volver{
+    display: block;
+    color: #7779BA;
+    text-align: center;
+    font-size: 32px;
+
+
+}
+/* aquí trabajo el sobre mí*/
+
+article.sobre{
+    width: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+img.mifoto{
+    margin-top: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+h2.sobre{
+    margin-top: 38px;
+    text-align: center;
+    font-size: 80px;
+    color: #7779BA;
+    letter-spacing: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+}
+p.sobre{
+    color: #7779BA;
+    padding-bottom: 25px;
+    border-bottom: 3px solid #7779BA;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+
+}
+/* aqui  edito los botones de redes*/
+div.redes{
+    width: 60px;
+    height: 250px;
+    background-color: #7779BA;
+    position: fixed;
+    top: 255px;
+    left: 0;
+    border-radius: 13px;
+}
+li{
+    list-style: none;
+    text-align: center;
+}
